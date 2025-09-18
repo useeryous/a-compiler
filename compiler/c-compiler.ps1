@@ -89,11 +89,9 @@
 
 function token ($cfile) {
     for (i = 0; ) {
-        
+
     }
 }
 
 
-function ccs ($file) {
-    token $file
-}
+token $file
