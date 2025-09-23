@@ -1,10 +1,6 @@
-function ccs ($file) {
-    C:\Users\502771\programs\scripts\powershell-functions\compiler\c-compiler.ps1 $file
-}
 
-function hccs ($file) {
-    C:\Users\502771\programs\scripts\powershell-functions\compiler\hc-compiler.ps1 $file
-}
+Import-Module -Name "C:\Users\502771\programs\scripts\powershell-functions\a-compiler\c-compiler.psm1"
+Import-Module -Name "C:\Users\502771\programs\scripts\powershell-functions\a-compiler\hc-compiler.psm1"
 
 $extn = [System.IO.Path]::GetExtension($path)
 switch ($extn) {
